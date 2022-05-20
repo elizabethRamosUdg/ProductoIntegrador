@@ -1,0 +1,11 @@
+.containerActividades {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+}
+
+.container img {
+    margin-bottom: 86px;
+}

@@ -1,17 +1,17 @@
 import React from 'react';
 
+import A01 from '../images/Actividades/A_01.jpeg';
+import A02 from '../images/Actividades/A_02.jpeg';
+import A03 from '../images/Actividades/A_03.jpeg';
+
+import "../pages/style/actividades.css";
+
 function Actividades() {
     return (
-        <div className="jumbotron">
-        <div className="container">
-            <h1 className="display-3">Nosotros </h1>
-            <p>
-                Somos una comunidad en donde fomentamos el conocimiento colectivo.
-                <br/>
-                Solo de esta manera se formarán profesionales que cambien sus vidas y tengan un mejor futuro.
-            </p>
-            <p><a className="btn btn-primary btn-lg" href="https://nubecolectiva.com" target="_blank" role="button">Visitar Web</a></p>
-        </div>
+    <div className="containerActividades">
+        <img src={A01} alt="Sample Image"/>
+        <img src={A02} alt="Sample Image"/>
+        <img src={A03} alt="Sample Image"/>
     </div>
     );
 }
